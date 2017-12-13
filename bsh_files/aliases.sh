@@ -15,6 +15,7 @@ alias gsa='git stash apply'
 alias gsd='git stash'
 alias b='git symbolic-ref --short -q HEAD'
 alias gtp='branch=$(git symbolic-ref --short -q HEAD) && echo Pushing on origin $branch && git push origin $branch'
+alias gtl='branch=$(git symbolic-ref --short -q HEAD) && echo Pulling origin $branch && git pull origin $branch'
 
 alias ne='emacs -nw'
 alias sne='sudo emacs -nw'
