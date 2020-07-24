@@ -6,7 +6,7 @@ alias la='ls -lA'
 
 alias gts='git status'
 alias gtd='git add --all'
-alias gtc='git commit'
+alias gtc='git commit -S'
 alias gds='git diff --staged'
 alias gd='git diff'
 alias gk='git checkout'
