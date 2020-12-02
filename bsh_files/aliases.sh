@@ -18,6 +18,7 @@ alias gtp='branch=$(git symbolic-ref --short -q HEAD) && echo Pushing on origin 
 alias gpl='branch=$(git symbolic-ref --short -q HEAD) && echo Pulling origin $branch && git pull origin $branch'
 alias gpp='gpl && gtp'
 alias jpp='gtc && gpp'
+alias gtm='git merge -S'
 
 alias ne='emacs -nw'
 alias sne='sudo emacs -nw'
