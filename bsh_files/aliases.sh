@@ -37,3 +37,5 @@ alias wget='wget -c'
 alias watch='watch -c'
 
 alias now='date +"%T"'
+
+alias ssh='ssh -A'
