@@ -39,3 +39,8 @@ alias watch='watch -c'
 alias now='date +"%T"'
 
 alias ssh='ssh -A'
+
+alias nversion='npm --no-git-tag-version version'
+alias npatch='nversion patch'
+alias nminor='nversion minor'
+alias nmajor='nversion major'
