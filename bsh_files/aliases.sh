@@ -20,6 +20,8 @@ alias gpp='gpl && gtp'
 alias jpp='gtc && gpp'
 alias gtm='git merge -S'
 
+alias sgit='SSH_AUTH_SOCK=$SSH_AUTH_SOCK git'
+
 alias ne='emacs -nw'
 alias sne='sudo emacs -nw'
 alias mr_clean='find . -name "*~" -a -type f -delete -o -name "#*#" -a -type f -delete'
