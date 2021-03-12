@@ -20,7 +20,7 @@ alias gpp='gpl && gtp'
 alias jpp='gtc && gpp'
 alias gtm='git merge -S'
 
-alias sgit='SSH_AUTH_SOCK=$SSH_AUTH_SOCK sudo git'
+alias sgit='sudo SSH_AUTH_SOCK=$SSH_AUTH_SOCK git'
 
 alias ne='emacs -nw'
 alias sne='sudo emacs -nw'
